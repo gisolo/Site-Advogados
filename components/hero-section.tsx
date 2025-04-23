@@ -65,7 +65,7 @@ const HeroSection = () => {
           >
             <div className="relative h-[500px] w-full rounded-lg overflow-hidden shadow-2xl">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/andrermlm%40gmail.com_edit_your_own_4125701480_6ae53f15849546be9ee27c0f536f0bd0-waUp8oWrB4foiJiPTBxS8fyM6cFKBU.png"
+                src="https://i.imgur.com/0GorqSY.png"
                 alt="Equipe Mello Costa Advogados"
                 fill
                 className="object-cover"
