@@ -41,8 +41,8 @@ const AboutSection = () => {
               <Image src="/images/office.jpg" alt="Escritório Mello Costa Advogados" fill className="object-cover" />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-primary-gold text-white p-6 rounded-lg shadow-lg hidden md:block">
-              <p className="text-2xl font-bold">+10</p>
-              <p className="text-sm">Anos de experiência</p>
+              <p className="text-2xl font-bold">Experiência</p>
+              <p className="text-sm">e dedicação</p>
             </div>
           </motion.div>
 
@@ -53,28 +53,20 @@ const AboutSection = () => {
           >
             <h3 className="text-2xl font-semibold mb-6 text-gray-800">Quem Somos</h3>
             <p className="text-lg text-gray-600 mb-6">
-              O Mello Costa é um escritório de advocacia com mais de uma década de atuação destacada em todo o Brasil.
-              Com foco em Direito da Família, Sucessões, Direito Imobiliário e Tributário, oferecemos um atendimento
-              jurídico ágil, humano e personalizado.
+              Com sólida trajetória na prestação de serviços jurídicos em todo o Brasil, Raíssa Mello Costa atua com
+              destaque nas áreas de Direito Imobiliário, Tributário e Sucessões.Seu trabalho é fundamentado em
+              princípios éticos, transparência e compromisso com soluções eficazes. Preza por um atendimento próximo e
+              personalizado, sempre com o objetivo de oferecer a melhor solução para as necessidades específicas de cada
+              cliente. Considera que a prática jurídica deve ser clara e objetiva. Por isso, adota uma atuação
+              estratégica, focada em eficiência, resultados concretos e análise individualizada de cada caso. Atua na
+              regularização de imóveis, planejamento sucessório, inventários, defesas em execuções fiscais, além de
+              consultorias e ações voltadas à redução da carga tributária, conduzindo cada demanda com precisão técnica
+              e responsabilidade profissional.
             </p>
             <p className="text-lg text-gray-600 mb-8">
               Nosso compromisso é entregar resultados concretos por meio de uma atuação ética, transparente e
               estratégica. Acreditamos que o direito deve ser acessível e compreensível para todos os nossos clientes.
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-white p-6 rounded-lg shadow-md text-center">
-                <div className="text-primary-gold text-3xl font-bold mb-2">500+</div>
-                <p className="text-gray-600">Casos de sucesso</p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-md text-center">
-                <div className="text-primary-gold text-3xl font-bold mb-2">15+</div>
-                <p className="text-gray-600">Advogados especialistas</p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-md text-center">
-                <div className="text-primary-gold text-3xl font-bold mb-2">98%</div>
-                <p className="text-gray-600">Clientes satisfeitos</p>
-              </div>
-            </div>
           </motion.div>
         </div>
       </div>

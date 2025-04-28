@@ -36,8 +36,9 @@ const HeroSection = () => {
               Excelência Jurídica com Propósito
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-200">
-              Mais de 10 anos defendendo direitos com transparência, estratégia e humanidade. Atuação em todo o
-              território nacional.
+              Excelência Jurídica com Propósito - Com ampla experiência e uma abordagem personalizada, estamos
+              preparados para defender seus interesses com competência, dedicação e resultados, em todo o território
+              nacional.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
@@ -65,7 +66,7 @@ const HeroSection = () => {
           >
             <div className="relative h-[500px] w-full rounded-lg overflow-hidden shadow-2xl">
               <Image
-                src="https://i.imgur.com/0GorqSY.png"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/andrermlm%40gmail.com_edit_your_own_4125701480_6ae53f15849546be9ee27c0f536f0bd0-waUp8oWrB4foiJiPTBxS8fyM6cFKBU.png"
                 alt="Equipe Mello Costa Advogados"
                 fill
                 className="object-cover"

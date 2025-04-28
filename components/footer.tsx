@@ -19,8 +19,9 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-gray-400 mb-4">
-              Mais de 10 anos defendendo direitos com transparência, estratégia e humanidade. Atuação em todo o
-              território nacional.
+              Excelência Jurídica com Propósito - Com ampla experiência e uma abordagem personalizada, estamos
+              preparados para defender seus interesses com competência, dedicação e resultados, em todo o território
+              nacional.
             </p>
             <div className="flex space-x-4">
               <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
