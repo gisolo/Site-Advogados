@@ -63,10 +63,7 @@ const AboutSection = () => {
               consultorias e ações voltadas à redução da carga tributária, conduzindo cada demanda com precisão técnica
               e responsabilidade profissional.
             </p>
-            <p className="text-lg text-gray-600 mb-8">
-              Nosso compromisso é entregar resultados concretos por meio de uma atuação ética, transparente e
-              estratégica. Acreditamos que o direito deve ser acessível e compreensível para todos os nossos clientes.
-            </p>
+          
           </motion.div>
         </div>
       </div>
