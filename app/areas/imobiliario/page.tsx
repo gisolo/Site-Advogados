@@ -11,7 +11,7 @@ export default function DireitoImobiliario() {
       <section className="relative">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/tryiton_e3e4c2cd-d978-4de8-95a8-7642b341f06a-fyLSlwIuhdCdNOBmuTLS2gwoYdfl5h.png"
+            src="https://i.imgur.com/Lknv6x9.png"
             alt="Direito Imobiliário"
             fill
             className="object-cover"
