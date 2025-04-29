@@ -16,8 +16,8 @@ const SpecialtiesSection = () => {
     {
       icon: <Scale className="h-10 w-10 text-primary-gold" />,
       title: "Direito da Família e Sucessões",
-      description: "Divórcio, guarda, pensão, inventário, partilhas e proteção patrimonial.",
-      link: "#familia",
+      description: "Inventário, testamento, planejamento sucessório e partilha de herança.",
+      link: "/areas/sucessorio",
     },
     {
       icon: <Home className="h-10 w-10 text-primary-gold" />,
@@ -29,7 +29,7 @@ const SpecialtiesSection = () => {
       icon: <FileText className="h-10 w-10 text-primary-gold" />,
       title: "Direito Tributário",
       description: "Defesa contra cobranças indevidas, planejamento fiscal e recuperação de créditos.",
-      link: "#tributario",
+      link: "/areas/tributario",
     },
   ]
 

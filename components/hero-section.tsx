@@ -25,7 +25,7 @@ const HeroSection = () => {
       </div>
 
       <div className="container mx-auto px-4 z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="max-w-3xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 20 }}
@@ -36,9 +36,8 @@ const HeroSection = () => {
               Excelência Jurídica com Propósito
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-200">
-              Excelência Jurídica com Propósito - Com ampla experiência e uma abordagem personalizada, estamos
-              preparados para defender seus interesses com competência, dedicação e resultados, em todo o território
-              nacional.
+              Defenda seu patrimônio, sua empresa e sua família com quem entende de Direito Imobiliário, Tributário e
+              Sucessório.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
@@ -55,22 +54,6 @@ const HeroSection = () => {
                   Conheça Nossas Áreas
                 </Button>
               </Link>
-            </div>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: isVisible ? 1 : 0, scale: isVisible ? 1 : 0.9 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="hidden lg:block"
-          >
-            <div className="relative h-[500px] w-full rounded-lg overflow-hidden shadow-2xl">
-              <Image
-                src="https://i.imgur.com/7dJilTp.jpeg"
-                alt="Equipe Mello Costa Advogados"
-                fill
-                className="object-cover"
-              />
             </div>
           </motion.div>
         </div>

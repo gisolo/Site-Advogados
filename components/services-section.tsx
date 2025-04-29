@@ -11,16 +11,16 @@ const ServicesSection = () => {
   })
 
   const services = [
-    "Aposentadoria por idade e tempo de contribuição",
-    "Planejamento previdenciário completo",
-    "Revisão de benefícios do INSS",
+    "Planejamento tributário completo",
     "Regularização e retificação de imóveis",
     "Defesa contra execução fiscal e autos de infração",
     "Planejamento tributário para empresas",
     "Consultoria para condomínios",
     "Inventário judicial e extrajudicial",
-    "Divórcios e partilhas complexas",
-    "Ações de guarda e pensão alimentícia",
+    "Testamento",
+    "Planejamento sucessório",
+    "Partilha de herança",
+    "Regularização de imóveis",
   ]
 
   return (

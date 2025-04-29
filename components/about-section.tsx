@@ -53,15 +53,7 @@ const AboutSection = () => {
           >
             <h3 className="text-2xl font-semibold mb-6 text-gray-800">Quem Somos</h3>
             <p className="text-lg text-gray-600 mb-6">
-              Com sólida trajetória na prestação de serviços jurídicos em todo o Brasil, Raíssa Mello Costa atua com
-              destaque nas áreas de Direito Imobiliário, Tributário e Sucessões.Seu trabalho é fundamentado em
-              princípios éticos, transparência e compromisso com soluções eficazes. Preza por um atendimento próximo e
-              personalizado, sempre com o objetivo de oferecer a melhor solução para as necessidades específicas de cada
-              cliente. Considera que a prática jurídica deve ser clara e objetiva. Por isso, adota uma atuação
-              estratégica, focada em eficiência, resultados concretos e análise individualizada de cada caso. Atua na
-              regularização de imóveis, planejamento sucessório, inventários, defesas em execuções fiscais, além de
-              consultorias e ações voltadas à redução da carga tributária, conduzindo cada demanda com precisão técnica
-              e responsabilidade profissional.
+              O Mello Costa é um escritório especializado em Direito Imobiliário, Tributário e Sucessões, com atuação em todo o território nacional.Oferecemos um atendimento humano, próximo e alinhado às necessidades de cada cliente.Trabalhamos com ética, transparência e dedicação para transformar desafios jurídicos em soluções seguras e eficazes, sempre com foco na confiança e na excelência..
             </p>
           
           </motion.div>
