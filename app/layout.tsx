@@ -33,6 +33,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.png" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/favicon-192x192.png" />
+        <link rel="manifest" href="/manifest.json" />
+      </head>
       <body className={`${playfair.variable} ${inter.variable} font-sans`}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <Header />
