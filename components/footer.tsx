@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Facebook, Instagram, Linkedin, Twitter, Mail, Phone, MapPin } from "lucide-react"
+import { Instagram, Linkedin, Mail, Phone, MapPin } from "lucide-react"
 import Logo from "./logo"
 
 const Footer = () => {
@@ -19,22 +19,21 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-gray-400 mb-4">
-              Excelência Jurídica com Propósito - Com ampla experiência e uma abordagem personalizada, estamos
-              preparados para defender seus interesses com competência, dedicação e resultados, em todo o território
+              Atuação Jurídica Patrimonial Especializada - Com ampla experiência e uma abordagem personalizada,
+              oferecemos soluções eficazes em Direito Imobiliário, Tributário e Sucessório, em todo o território
               nacional.
             </p>
             <div className="flex space-x-4">
-              <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                <Facebook className="h-5 w-5 text-gray-400 hover:text-primary-gold transition-colors" />
-              </Link>
-              <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <Link
+                href="https://www.instagram.com/raissamelloadv?utm_source=qr&igsh=aWN3c2QwandieGtl"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
                 <Instagram className="h-5 w-5 text-gray-400 hover:text-primary-gold transition-colors" />
               </Link>
               <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <Linkedin className="h-5 w-5 text-gray-400 hover:text-primary-gold transition-colors" />
-              </Link>
-              <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                <Twitter className="h-5 w-5 text-gray-400 hover:text-primary-gold transition-colors" />
               </Link>
             </div>
           </div>
@@ -101,11 +100,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-primary-gold mr-2 mt-0.5" />
-                <span className="text-gray-400">
-                  //Endereço
-                  <br />
-                  Natal - RN,
-                </span>
+                <span className="text-gray-400">Natal - RN</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-primary-gold mr-2" />
@@ -123,7 +118,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>© {currentYear} Mello Costa Advogados. Todos os direitos reservados.</p>
+          <p>© {currentYear} Raíssa Mello Advogada. Todos os direitos reservados.</p>
           <p className="mt-2 text-sm">OAB/RN 22176 | Responsável: Dra. Raíssa Mello Costa</p>
         </div>
       </div>

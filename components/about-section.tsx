@@ -38,7 +38,7 @@ const AboutSection = () => {
             className="relative"
           >
             <div className="relative h-[400px] md:h-[500px] w-full rounded-lg overflow-hidden shadow-xl">
-              <Image src="/images/office.jpg" alt="Escritório Mello Costa Advogados" fill className="object-cover" />
+              <Image src="/images/image.jpg" alt="Prédios Corporativos" fill className="object-cover" />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-primary-gold text-white p-6 rounded-lg shadow-lg hidden md:block">
               <p className="text-2xl font-bold">Experiência</p>
@@ -53,9 +53,22 @@ const AboutSection = () => {
           >
             <h3 className="text-2xl font-semibold mb-6 text-gray-800">Quem Somos</h3>
             <p className="text-lg text-gray-600 mb-6">
-              O Mello Costa é um escritório especializado em Direito Imobiliário, Tributário e Sucessões, com atuação em todo o território nacional.Oferecemos um atendimento humano, próximo e alinhado às necessidades de cada cliente.Trabalhamos com ética, transparência e dedicação para transformar desafios jurídicos em soluções seguras e eficazes, sempre com foco na confiança e na excelência..
+              Advogada com atuação técnica e estratégica no âmbito do Direito Patrimonial, exercida nas esferas
+              judicial, administrativa e consultiva, prestando assessoria jurídica preventiva e oferecendo soluções
+              eficazes em demandas imobiliárias, tributárias e sucessórias.
             </p>
-          
+            <p className="text-lg text-gray-600 mb-6">
+              Minha atuação é orientada pela análise da natureza dos ativos e dos objetivos de cada cliente, com foco na
+              mitigação de riscos jurídicos, fiscais e imobiliários, na adequada organização e estruturação sucessória e
+              na otimização da carga tributária dentro dos limites legais.
+            </p>
+            <p className="text-lg text-gray-600">
+              Com máxima pessoalidade e linguagem acessível, tenho como compromisso oferecer agilidade e segurança na
+              prestação de serviços jurídicos voltados às mais diversas demandas patrimoniais. A atuação é pautada no
+              acompanhamento contínuo das inovações legislativas e jurisprudenciais, aliado ao uso da tecnologia como
+              ferramenta de eficiência, comunicação e organização, assegurando soluções atualizadas, claras e
+              juridicamente seguras para pessoas físicas e jurídicas.
+            </p>
           </motion.div>
         </div>
       </div>

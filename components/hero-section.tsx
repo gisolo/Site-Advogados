@@ -3,14 +3,26 @@
 import { useEffect, useState } from "react"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { motion } from "framer-motion"
+import { motion, AnimatePresence } from "framer-motion"
 import Link from "next/link"
 
 const HeroSection = () => {
   const [isVisible, setIsVisible] = useState(false)
+  const [currentTitle, setCurrentTitle] = useState(0)
+
+  const titles = [
+    "Atuação Jurídica Patrimonial Especializada",
+    "Seu patrimônio protegido com estratégia, discrição e respaldo legal",
+  ]
 
   useEffect(() => {
     setIsVisible(true)
+
+    const interval = setInterval(() => {
+      setCurrentTitle((prev) => (prev === 0 ? 1 : 0))
+    }, 4000)
+
+    return () => clearInterval(interval)
   }, [])
 
   const whatsappLink =
@@ -20,7 +32,7 @@ const HeroSection = () => {
     <section className="relative min-h-screen flex items-center pt-16">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <Image src="/images/hero-bg.jpg" alt="Mello Costa Advogados" fill className="object-cover" priority />
+        <Image src="/images/hero-bg.jpg" alt="Raíssa Mello Advogada" fill className="object-cover" priority />
         <div className="absolute inset-0 bg-black/60" />
       </div>
 
@@ -32,13 +44,21 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-white"
           >
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              Excelência Jurídica com Propósito
-            </h1>
-            <p className="text-xl md:text-2xl mb-8 text-gray-200">
-              Defenda seu patrimônio, sua empresa e sua família com quem entende de Direito Imobiliário, Tributário e
-              Sucessório.
-            </p>
+            <div className="min-h-[180px] md:min-h-[220px] mb-8 flex items-center overflow-hidden py-4">
+              <AnimatePresence mode="wait">
+                <motion.h1
+                  key={currentTitle}
+                  initial={{ x: -100, opacity: 0 }}
+                  animate={{ x: 0, opacity: 1 }}
+                  exit={{ x: 100, opacity: 0 }}
+                  transition={{ duration: 0.8, ease: "easeInOut" }}
+                  className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-balance"
+                >
+                  {titles[currentTitle]}
+                </motion.h1>
+              </AnimatePresence>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="bg-primary-gold hover:bg-primary-gold/90 text-white rounded-full">

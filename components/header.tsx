@@ -31,16 +31,14 @@ const Header = () => {
   return (
     <header
       className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? "bg-white shadow-md py-2" : "bg-[#9A8B4E] py-3"
+        isScrolled ? "bg-white shadow-md py-2" : "bg-transparent py-3"
       }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center">
             <div className="h-8 flex items-center">
-              {" "}
-              {/* Container fixo para o logo */}
-              <Logo variant={isScrolled ? "light" : "dark"} />
+              <Logo variant={isScrolled ? "dark" : "light"} />
             </div>
           </Link>
 

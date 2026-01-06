@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   title: "Mello Costa Advogados | Excelência Jurídica com Propósito",
   description:
     "Mais de 10 anos defendendo direitos com transparência, estratégia e humanidade. Atuação em todo o território nacional.",
-    generator: 'v0.dev'
+    generator: 'v0.app'
 }
 
 export default function RootLayout({
