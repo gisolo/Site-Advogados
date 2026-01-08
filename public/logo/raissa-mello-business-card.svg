@@ -1,0 +1,12 @@
+<svg width="500" height="200" viewBox="0 0 500 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <text x="250" y="70" font-family="Playfair Display, serif" font-size="42" font-weight="600" fill="#000000" text-anchor="middle">
+    Raíssa Mello<tspan fill="#F0544F">.</tspan>
+  </text>
+  <text x="250" y="110" font-family="Montserrat, sans-serif" font-size="14" font-weight="400" fill="#666666" text-anchor="middle" letter-spacing="4">
+    ADVOGADA
+  </text>
+  <line x1="150" y1="130" x2="350" y2="130" stroke="#9A8B4E" stroke-width="1"/>
+  <text x="250" y="160" font-family="Montserrat, sans-serif" font-size="11" font-weight="300" fill="#666666" text-anchor="middle" letter-spacing="2">
+    OAB/RN 22176
+  </text>
+</svg>

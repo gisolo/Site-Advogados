@@ -1,0 +1,21 @@
+<svg width="350" height="100" viewBox="0 0 350 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Added elegant gold gradient definition -->
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4C5A0;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#B8A573;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9A8B4E;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Applied gradient to all text elements -->
+  <text x="175" y="35" font-family="Playfair Display, serif" font-size="28" font-weight="600" fill="url(#goldGradient)" text-anchor="middle">
+    Raíssa Mello<tspan fill="#F0544F">.</tspan>
+  </text>
+  <text x="175" y="60" font-family="Montserrat, sans-serif" font-size="10" font-weight="400" fill="url(#goldGradient)" text-anchor="middle" letter-spacing="2.5">
+    ADVOGADA
+  </text>
+  <text x="175" y="80" font-family="Montserrat, sans-serif" font-size="9" font-weight="400" fill="url(#goldGradient)" text-anchor="middle" letter-spacing="1">
+    OAB/RN 22176
+  </text>
+</svg>

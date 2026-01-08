@@ -18,8 +18,9 @@ const DifferentialsSection = () => {
     },
     {
       icon: <Globe className="h-12 w-12 text-primary-gold" />,
-      title: "Atuação Nacional",
-      description: "Representamos clientes em todas as regiões do Brasil.",
+      title: "Planejamento Estratégico",
+      description:
+        "Identifico e antecipo riscos sobre seus bens e direitos, prevendo cenários para reduzir prejuízos e potencializar seus resultados.",
     },
     {
       icon: <Award className="h-12 w-12 text-primary-gold" />,

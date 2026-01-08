@@ -15,7 +15,7 @@ const Footer = () => {
           <div>
             <div className="mb-4">
               <div className="h-8 flex items-center">
-                <Logo variant="dark" />
+                <Logo variant="white" />
               </div>
             </div>
             <p className="text-gray-400 mb-4">

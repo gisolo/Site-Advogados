@@ -1,0 +1,7 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="100" r="90" stroke="#9A8B4E" stroke-width="2" fill="none"/>
+  <text x="100" y="120" font-family="Playfair Display, serif" font-size="72" font-weight="600" fill="#000000" text-anchor="middle">
+    RM
+  </text>
+  <circle cx="155" cy="70" r="5" fill="#F0544F"/>
+</svg>

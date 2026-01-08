@@ -1,0 +1,18 @@
+<svg width="600" height="250" viewBox="0 0 600 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <text x="300" y="70" font-family="Playfair Display, serif" font-size="48" font-weight="600" fill="#000000" text-anchor="middle">
+    Raíssa Mello<tspan fill="#F0544F">.</tspan>
+  </text>
+  <text x="300" y="110" font-family="Montserrat, sans-serif" font-size="14" font-weight="400" fill="#666666" text-anchor="middle" letter-spacing="4">
+    ADVOGADA
+  </text>
+  <line x1="100" y1="140" x2="500" y2="140" stroke="#9A8B4E" stroke-width="1"/>
+  <text x="300" y="170" font-family="Montserrat, sans-serif" font-size="10" font-weight="300" fill="#666666" text-anchor="middle">
+    OAB/RN 22176
+  </text>
+  <text x="300" y="195" font-family="Montserrat, sans-serif" font-size="10" font-weight="300" fill="#666666" text-anchor="middle">
+    (84) 99935-8681 | contato@raissamello.adv.br
+  </text>
+  <text x="300" y="220" font-family="Montserrat, sans-serif" font-size="10" font-weight="300" fill="#666666" text-anchor="middle">
+    Advocacia Patrimonial Especializada
+  </text>
+</svg>
